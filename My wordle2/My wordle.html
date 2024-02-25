@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>start</title>
+    <style>
+    .b1{
+        color:black;
+        font-weight: 900;
+        font-family: serif;
+        font-size: 30px;
+        text-decoration: none;
+        position: absolute;
+        top:45%;
+        left:45%;
+        border-radius: 10px;
+    }
+    .b2{
+        color: black;
+        font-family:serif;
+        font-weight: 900;
+        font-size: 30px;
+        text-decoration: none;
+        position: absolute;
+        top:51%;
+        left:45%;
+        border-radius: 10px;
+    }
+    div{
+        font-weight: 900;
+        font-size: 80px;
+        color: black;
+        position: absolute;
+        top:32%;
+        left:31%;
+    }
+    .box1{
+        position: absolute;
+        left: 23%;
+        top: 18%;
+        background-color: green;
+        width: 900px;
+        height: 10px;
+        animation: anima 2s linear infinite normal;
+        border-radius: 15px;
+    }
+    .box2{
+        position: absolute;
+        left: 23%;
+        top: 70%;
+        background-color: green;
+        width: 900px;
+        height: 10px;
+        animation: anima 2s linear infinite normal;
+        border-radius: 15px;
+    }
+    .box3{
+        position: absolute;
+        left: 23%;
+        top: 18%;
+        background-color: green;
+        width: 10px;
+        height: 493px;
+        animation: anima 2s linear infinite normal;
+        border-radius: 15px;
+    }
+    .box4{
+        position: absolute;
+        left: 75.2%;
+        top: 18%;
+        background-color: green;
+        width: 10px;
+        height: 493px;
+        animation: anima 2s linear infinite normal;
+        border-radius: 15px;
+    }
+    .animation:hover{
+        animation-play-state: paused;
+    }
+    @keyframes anima{
+        0%{
+            background-color: green;
+        }
+        50%{
+            background-color: yellow;
+        }
+        100%{
+            background-color: gray;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div >WORDLE GAME</div>
+    <a href="game.html" class="b1">开始游戏</a>
+    <a href="instruction.html" class="b2">游戏说明</a>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</body>
+</html>

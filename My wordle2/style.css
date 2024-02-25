@@ -1,0 +1,47 @@
+.body{
+    position: absolute;
+    left: 36%;
+    top:11.5%;
+}
+.body .guess-container{
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 10px;
+}
+.body .guess-container .guess-row{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+}
+.body .guess-container .guess-row .guess-tile{
+    height: 75px;
+    width: 75px;
+    border: 2px solid #d3d6da;
+    font-size: 32px;
+    font-weight: 700;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.footer{
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 75px 75px 75px;
+    grid-gap: 5px;
+    justify-items: center;
+    position: absolute;
+    left: 22%;
+    top:70%;
+}
+.footer .key-row{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(75px,min-content);
+    grid-gap: 5px;
+}
+.footer .key-row .btn-default{
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
